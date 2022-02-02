@@ -6,8 +6,15 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    background: #d9d9d9;
+    background: white;
     color: black;
+}
+
+@media screen and (max-width: 1024px){
+    div.ftrd{
+        margin: 10px;
+        margin-right: 20px;
+    }
 }
 
 @media screen and (max-width: 905px) {
@@ -16,9 +23,21 @@ body{
     }
 }
 
+@media screen and (max-width: 500px) {
+    div.name{
+        display: none;
+    }
+}
+
+hr{
+    border: 0.01px solid black;
+}
+
 .hr1{
     width: 90vw;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .fave{
@@ -28,6 +47,7 @@ body{
 
 .title{
     padding: 20px 20px 0px 20px;
+    font-size: 1rem + 1vw;
 }
 
 .link{
@@ -235,9 +255,9 @@ body{
 }
 
 #icon{
-    height: 50px;
+    height: 35px;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .dropdown{
@@ -246,7 +266,7 @@ body{
 }
 
 #acc{
-    height: 40px;
+    height: 25px;
 }
 
 .c{
@@ -263,3 +283,6 @@ body{
     padding: 10px 0px 10px 0px;
 }
 
+h1{
+    font-size: 1.5em;
+}
